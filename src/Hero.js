@@ -91,6 +91,14 @@ const Hero = ({ handleLogout, user, list, setList, handleUpload, fileChange, set
     //     }
     //   }
 
+    let theirImage;
+    for(let i = 0; i < imageList.length; i++){
+        if(user.uid == imageList[i].user){
+            theirImage = imageList[i].img;
+            break;
+        }
+    }
+
 
     return(
         <>
@@ -111,7 +119,8 @@ const Hero = ({ handleLogout, user, list, setList, handleUpload, fileChange, set
                                 Select a File
                                 <input type="file" onChange={fileChange} hidden/>
                             </Button>
-                        
+                            <br></br>
+                            <br></br>
                             <Button 
                                 variant="outlined"
                                 color="secondary"
@@ -123,6 +132,16 @@ const Hero = ({ handleLogout, user, list, setList, handleUpload, fileChange, set
 
                         </div>
                     </section>
+
+                    <br></br>
+
+                    <div 
+                        style={{ backgroundImage: `url(${theirImage})` }}
+                        className = "card"
+                    >
+                        <h2>Current Picture</h2>
+                    </div>
+
                 </>
             ):(
                 (pages=="Leaderboard") ? (
