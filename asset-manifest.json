@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Binder/static/css/main.d5a20385.chunk.css",
+    "main.js": "/Binder/static/js/main.02566eeb.chunk.js",
+    "main.js.map": "/Binder/static/js/main.02566eeb.chunk.js.map",
+    "runtime-main.js": "/Binder/static/js/runtime-main.08521657.js",
+    "runtime-main.js.map": "/Binder/static/js/runtime-main.08521657.js.map",
+    "static/js/2.e11dba86.chunk.js": "/Binder/static/js/2.e11dba86.chunk.js",
+    "static/js/2.e11dba86.chunk.js.map": "/Binder/static/js/2.e11dba86.chunk.js.map",
+    "static/js/3.bac39a1f.chunk.js": "/Binder/static/js/3.bac39a1f.chunk.js",
+    "static/js/3.bac39a1f.chunk.js.map": "/Binder/static/js/3.bac39a1f.chunk.js.map",
+    "index.html": "/Binder/index.html",
+    "static/css/main.d5a20385.chunk.css.map": "/Binder/static/css/main.d5a20385.chunk.css.map",
+    "static/js/2.e11dba86.chunk.js.LICENSE.txt": "/Binder/static/js/2.e11dba86.chunk.js.LICENSE.txt",
+    "static/media/binderlogo.b3c55963.jpg": "/Binder/static/media/binderlogo.b3c55963.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08521657.js",
+    "static/js/2.e11dba86.chunk.js",
+    "static/css/main.d5a20385.chunk.css",
+    "static/js/main.02566eeb.chunk.js"
+  ]
+}
